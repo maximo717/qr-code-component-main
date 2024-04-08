@@ -1,3 +1,10 @@
+:root{
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --White: hsl(0, 0%, 100%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -7,7 +14,7 @@
 
 body{
     overflow: hidden;           /* To prevent scrolling the page*/
-    background-color: lightgray;
+    background-color: var(--Light-gray);
 }
 
 .container{
@@ -22,7 +29,7 @@ body{
 .box{
     width: 288px;
     height: 450px;
-    background-color: white;
+    background-color: var(--White);
     padding: 15px;
     border-radius: 10px;
     overflow: hidden;
@@ -43,12 +50,12 @@ body{
 
 .box-content h3{
     margin-bottom: 15px;
-    color: rgb(10, 10, 61);
+    color: var(--Dark-blue);
     font-weight: 700;
 }
 
 .box-content p{
     font-size: 15px;
-    color: lightslategray;
+    color: var(--Grayish-blue);
     font-weight: 400;
 }
